@@ -3,7 +3,7 @@ const tasks_list = document.querySelector(".tasks_list")
 
 // Что-то в духе Enum`а
 const Stage = { NotDone: "not done", InProgress: "in progress", Done: "done" }
-const Category = { Home: "home", Study: "study", Work: "work", Any: "any" }
+const Category = { Home: "home", Study: "study", Work: "work", Other: "other" }
 
 
 
