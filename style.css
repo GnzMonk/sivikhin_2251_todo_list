@@ -91,8 +91,85 @@ main {
 
 /* For js*/
 .task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border: 3px solid black;
-    padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.task_left {
+    width: 83%;
+    padding: 10px;
+    background-color: lightgray;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.task_name {
+    font-size: 25px;
+}
+
+.task_right {
+    width: 17%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.task_right button {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border-width: 3px;
+    font-size: 20px;
+}
+
+.stage_notdone {
+    background-color: red;
+}
+
+.stage_inprogress {
+    background-color: orange;
+}
+
+.stage_done {
+    background-color: green;
+}
+
+.category_div {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.color_work {
+    background-color: blue;
+}
+
+.color_study {
+    background-color: yellow;
+}
+
+.color_home {
+    background-color: lightgreen;
+}
+
+.color_other {
+    background-color: gray;
+}
+
+.edit_win {
+    padding: 5px;
+    margin-top: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: none;
+}
+
+.visible {
+    display: flex;
 }
