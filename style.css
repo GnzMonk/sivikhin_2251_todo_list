@@ -173,3 +173,26 @@ main {
 .visible {
     display: flex;
 }
+
+.invisible {
+    display: none;
+}
+
+.task_editor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_editor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.bottom_editor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
